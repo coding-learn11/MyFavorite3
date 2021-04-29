@@ -1,7 +1,7 @@
 body {
- text-align: center;
-  background: linear-gradient(#dd9ae6 0%, #2273a3 100%);
-    background-repeat: no-repeat;
+text-align: center;
+background: linear-gradient(#dd9ae6 0%, #2273a3 100%);
+background-repeat: no-repeat;
 }
 
 h1 {
@@ -36,26 +36,28 @@ h1 {
 
 .menu {
     list-style: none;
-    position: absolute;
+    position: fixed;
+    background: aliceblue;
     top: 10px;
-    right: 30px;
+    margin-top: 0px;
+    width: 100%;
     z-index: 10;
-    cursor: pointer;
+    cursor: pointer
 }
 
+
+
 .list {
-     float: left;
-    color: black;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
     font-family: fantasy;
     font-size: 20px;
 }
 
 .list:hover {
     background-color: lemonchiffon;
+    font-size: 25px;
 }
 
 #game {
@@ -90,4 +92,28 @@ html{
 
 .pictures:hover {
     transform: scale(0.9)
+}
+
+#contact {
+    background: bisque;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a{
+    color: white;
+    text-shadow: none;
+}
+
+#work a
+{
+text-shadow: none !important ;
+text-decoration: underline !important;
+color: blue !important;
 }
